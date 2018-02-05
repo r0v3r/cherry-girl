@@ -1,0 +1,133 @@
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] MongoDB starting : pid=30244 port=27017 dbpath=/home/rover/Workspace/cherry-girl/cherry-server/data/db 64-bit host=rover-PC
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] db version v3.4.0
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] git version: f4240c60f005be757399042dc12f6addbc3170c1
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] modules: none
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] build environment:
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-05T23:54:13.843+0800 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "data/db" }, systemLog: { destination: "file", path: "data/log/20180205.log" } }
+2018-02-05T23:54:13.847+0800 I STORAGE  [initandlisten] 
+2018-02-05T23:54:13.847+0800 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2018-02-05T23:54:13.847+0800 I STORAGE  [initandlisten] See http://dochub.mongodb.org/core/prodnotes-filesystem
+2018-02-05T23:54:13.847+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3439M,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] 
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] 
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] 
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] 
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31140 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+2018-02-05T23:54:14.001+0800 I CONTROL  [initandlisten] 
+2018-02-05T23:54:14.052+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/rover/Workspace/cherry-girl/cherry-server/data/db/diagnostic.data'
+2018-02-05T23:54:14.121+0800 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2018-02-05T23:54:14.121+0800 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-02-05T23:54:14.122+0800 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2018-02-05T23:54:14.123+0800 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2018-02-05T23:54:14.123+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2018-02-05T23:54:25.259+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:38524 #1 (1 connection now open)
+2018-02-05T23:54:25.260+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:38524 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.0" }, os: { type: "Linux", name: "Deepin", architecture: "x86_64", version: "15.5" } }
+2018-02-06T00:08:04.235+0800 I -        [conn1] end connection 127.0.0.1:38524 (1 connection now open)
+2018-02-06T00:24:11.112+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:41004 #2 (1 connection now open)
+2018-02-06T00:24:11.121+0800 I NETWORK  [conn2] received client metadata from 127.0.0.1:41004 conn2: { driver: { name: "mongo-java-driver", version: "3.4.3-dirty" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.14.0-deepin2-amd64" }, platform: "Java/Oracle Corporation/1.8.0_151-b12" }
+2018-02-06T00:46:02.575+0800 I -        [conn2] end connection 127.0.0.1:41004 (1 connection now open)
+2018-02-06T00:51:21.157+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45106 #3 (1 connection now open)
+2018-02-06T00:51:21.157+0800 I NETWORK  [conn3] received client metadata from 127.0.0.1:45106 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.0" }, os: { type: "Linux", name: "Deepin", architecture: "x86_64", version: "15.5" } }
+2018-02-06T00:51:26.492+0800 I -        [conn3] end connection 127.0.0.1:45106 (1 connection now open)
+2018-02-06T00:51:58.598+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45160 #4 (1 connection now open)
+2018-02-06T00:51:58.653+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45162 #5 (2 connections now open)
+2018-02-06T00:51:58.682+0800 I -        [conn5] end connection 127.0.0.1:45162 (2 connections now open)
+2018-02-06T00:51:58.684+0800 I -        [conn4] end connection 127.0.0.1:45160 (1 connection now open)
+2018-02-06T00:52:40.298+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45192 #6 (1 connection now open)
+2018-02-06T00:52:40.310+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45194 #7 (2 connections now open)
+2018-02-06T00:52:40.359+0800 I -        [conn7] end connection 127.0.0.1:45194 (2 connections now open)
+2018-02-06T00:52:40.360+0800 I -        [conn6] end connection 127.0.0.1:45192 (1 connection now open)
+2018-02-06T00:52:53.729+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45208 #8 (1 connection now open)
+2018-02-06T00:52:53.796+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45210 #9 (2 connections now open)
+2018-02-06T00:52:53.838+0800 I -        [conn9] end connection 127.0.0.1:45210 (2 connections now open)
+2018-02-06T00:52:53.838+0800 I -        [conn8] end connection 127.0.0.1:45208 (1 connection now open)
+2018-02-06T00:53:01.846+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45216 #10 (1 connection now open)
+2018-02-06T00:53:01.854+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45218 #11 (2 connections now open)
+2018-02-06T00:53:01.862+0800 I -        [conn11] end connection 127.0.0.1:45218 (2 connections now open)
+2018-02-06T00:53:01.862+0800 I -        [conn10] end connection 127.0.0.1:45216 (2 connections now open)
+2018-02-06T00:56:11.591+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45398 #12 (1 connection now open)
+2018-02-06T00:56:11.606+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45400 #13 (2 connections now open)
+2018-02-06T00:56:11.613+0800 I -        [conn13] end connection 127.0.0.1:45400 (2 connections now open)
+2018-02-06T00:56:11.614+0800 I -        [conn12] end connection 127.0.0.1:45398 (1 connection now open)
+2018-02-06T00:56:42.637+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45436 #14 (1 connection now open)
+2018-02-06T00:56:42.638+0800 I NETWORK  [conn14] received client metadata from 127.0.0.1:45436 conn14: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.0" }, os: { type: "Linux", name: "Deepin", architecture: "x86_64", version: "15.5" } }
+2018-02-06T00:56:55.429+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45446 #15 (2 connections now open)
+2018-02-06T00:56:55.433+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:45448 #16 (3 connections now open)
+2018-02-06T00:56:55.438+0800 I -        [conn15] end connection 127.0.0.1:45446 (3 connections now open)
+2018-02-06T00:56:55.438+0800 I -        [conn16] end connection 127.0.0.1:45448 (2 connections now open)
+2018-02-06T00:59:55.192+0800 I -        [conn14] end connection 127.0.0.1:45436 (1 connection now open)
+2018-02-06T01:00:07.165+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:46570 #17 (1 connection now open)
+2018-02-06T01:00:07.167+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:46572 #18 (2 connections now open)
+2018-02-06T01:00:07.177+0800 I -        [conn18] end connection 127.0.0.1:46572 (2 connections now open)
+2018-02-06T01:00:07.177+0800 I -        [conn17] end connection 127.0.0.1:46570 (1 connection now open)
+2018-02-06T01:00:10.379+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:46580 #19 (1 connection now open)
+2018-02-06T01:00:10.385+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:46582 #20 (2 connections now open)
+2018-02-06T01:00:10.391+0800 I -        [conn20] end connection 127.0.0.1:46582 (2 connections now open)
+2018-02-06T01:00:10.392+0800 I -        [conn19] end connection 127.0.0.1:46580 (1 connection now open)
+2018-02-06T01:00:23.832+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:46606 #21 (1 connection now open)
+2018-02-06T01:00:23.843+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:46608 #22 (2 connections now open)
+2018-02-06T01:00:23.855+0800 I -        [conn22] end connection 127.0.0.1:46608 (2 connections now open)
+2018-02-06T01:00:23.856+0800 I -        [conn21] end connection 127.0.0.1:46606 (1 connection now open)
+2018-02-06T01:11:04.620+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48170 #23 (1 connection now open)
+2018-02-06T01:11:04.620+0800 I NETWORK  [conn23] received client metadata from 127.0.0.1:48170 conn23: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.0" }, os: { type: "Linux", name: "Deepin", architecture: "x86_64", version: "15.5" } }
+2018-02-06T01:11:10.378+0800 I -        [conn23] end connection 127.0.0.1:48170 (1 connection now open)
+2018-02-06T01:17:09.221+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48590 #24 (1 connection now open)
+2018-02-06T01:17:09.226+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48592 #25 (2 connections now open)
+2018-02-06T01:17:09.237+0800 I COMMAND  [conn25] CMD: drop cherrygirl.child_clothes
+2018-02-06T01:17:09.239+0800 I -        [conn24] end connection 127.0.0.1:48590 (2 connections now open)
+2018-02-06T01:17:09.239+0800 I -        [conn25] end connection 127.0.0.1:48592 (1 connection now open)
+2018-02-06T01:17:09.250+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48594 #26 (1 connection now open)
+2018-02-06T01:17:09.257+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48596 #27 (2 connections now open)
+2018-02-06T01:17:09.267+0800 I -        [conn27] end connection 127.0.0.1:48596 (2 connections now open)
+2018-02-06T01:17:09.270+0800 I -        [conn26] end connection 127.0.0.1:48594 (1 connection now open)
+2018-02-06T01:17:14.993+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48600 #28 (1 connection now open)
+2018-02-06T01:17:14.993+0800 I NETWORK  [conn28] received client metadata from 127.0.0.1:48600 conn28: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.0" }, os: { type: "Linux", name: "Deepin", architecture: "x86_64", version: "15.5" } }
+2018-02-06T01:18:15.661+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48674 #29 (2 connections now open)
+2018-02-06T01:18:15.665+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48676 #30 (3 connections now open)
+2018-02-06T01:18:15.671+0800 I -        [conn30] end connection 127.0.0.1:48676 (3 connections now open)
+2018-02-06T01:18:15.671+0800 I -        [conn29] end connection 127.0.0.1:48674 (2 connections now open)
+2018-02-06T01:18:18.028+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48684 #31 (2 connections now open)
+2018-02-06T01:18:18.034+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48686 #32 (3 connections now open)
+2018-02-06T01:18:18.036+0800 I -        [conn31] end connection 127.0.0.1:48684 (3 connections now open)
+2018-02-06T01:18:18.036+0800 I -        [conn32] end connection 127.0.0.1:48686 (3 connections now open)
+2018-02-06T01:18:26.094+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48700 #33 (2 connections now open)
+2018-02-06T01:18:26.095+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48702 #34 (3 connections now open)
+2018-02-06T01:18:26.097+0800 I -        [conn34] end connection 127.0.0.1:48702 (3 connections now open)
+2018-02-06T01:18:26.097+0800 I -        [conn33] end connection 127.0.0.1:48700 (2 connections now open)
+2018-02-06T01:20:25.250+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48824 #35 (2 connections now open)
+2018-02-06T01:20:25.254+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48826 #36 (3 connections now open)
+2018-02-06T01:20:25.264+0800 I -        [conn36] end connection 127.0.0.1:48826 (3 connections now open)
+2018-02-06T01:20:25.265+0800 I -        [conn35] end connection 127.0.0.1:48824 (2 connections now open)
+2018-02-06T01:20:25.269+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48828 #37 (2 connections now open)
+2018-02-06T01:20:25.277+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:48830 #38 (3 connections now open)
+2018-02-06T01:20:25.283+0800 I -        [conn38] end connection 127.0.0.1:48830 (3 connections now open)
+2018-02-06T01:20:25.284+0800 I -        [conn37] end connection 127.0.0.1:48828 (2 connections now open)
+2018-02-06T01:24:33.178+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49130 #39 (2 connections now open)
+2018-02-06T01:24:33.185+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49132 #40 (3 connections now open)
+2018-02-06T01:24:33.187+0800 I -        [conn39] end connection 127.0.0.1:49130 (3 connections now open)
+2018-02-06T01:24:33.187+0800 I -        [conn40] end connection 127.0.0.1:49132 (2 connections now open)
+2018-02-06T01:24:42.222+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49144 #41 (2 connections now open)
+2018-02-06T01:24:42.224+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49146 #42 (3 connections now open)
+2018-02-06T01:24:42.228+0800 I -        [conn42] end connection 127.0.0.1:49146 (3 connections now open)
+2018-02-06T01:24:42.228+0800 I -        [conn41] end connection 127.0.0.1:49144 (2 connections now open)
+2018-02-06T01:25:03.645+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49166 #43 (2 connections now open)
+2018-02-06T01:25:03.648+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49168 #44 (3 connections now open)
+2018-02-06T01:25:03.650+0800 I -        [conn44] end connection 127.0.0.1:49168 (3 connections now open)
+2018-02-06T01:25:03.650+0800 I -        [conn43] end connection 127.0.0.1:49166 (2 connections now open)
+2018-02-06T01:25:03.652+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49170 #45 (2 connections now open)
+2018-02-06T01:25:03.660+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:49172 #46 (3 connections now open)
+2018-02-06T01:25:03.669+0800 I -        [conn46] end connection 127.0.0.1:49172 (3 connections now open)
+2018-02-06T01:25:03.670+0800 I -        [conn45] end connection 127.0.0.1:49170 (2 connections now open)
+2018-02-06T01:43:02.164+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50460 #47 (2 connections now open)
+2018-02-06T01:43:02.168+0800 I NETWORK  [conn47] received client metadata from 127.0.0.1:50460 conn47: { driver: { name: "mongo-java-driver", version: "3.4.3-dirty" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.14.0-deepin2-amd64" }, platform: "Java/Oracle Corporation/1.8.0_151-b12" }
+2018-02-06T01:43:02.640+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50462 #48 (3 connections now open)
+2018-02-06T01:43:02.641+0800 I NETWORK  [conn48] received client metadata from 127.0.0.1:50462 conn48: { driver: { name: "mongo-java-driver", version: "3.4.3-dirty" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.14.0-deepin2-amd64" }, platform: "Java/Oracle Corporation/1.8.0_151-b12" }
+2018-02-06T01:43:17.149+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50490 #49 (4 connections now open)
+2018-02-06T01:43:17.151+0800 I NETWORK  [conn49] received client metadata from 127.0.0.1:50490 conn49: { driver: { name: "mongo-java-driver", version: "3.4.3-dirty" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.14.0-deepin2-amd64" }, platform: "Java/Oracle Corporation/1.8.0_151-b12" }

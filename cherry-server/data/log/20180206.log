@@ -1,0 +1,14 @@
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] MongoDB starting : pid=3942 port=27017 dbpath=/home/rover/Workspace/cherry-girl/cherry-server/data/db 64-bit host=rover-PC
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] db version v3.4.0
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] git version: f4240c60f005be757399042dc12f6addbc3170c1
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] modules: none
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] build environment:
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-06T00:51:34.757+0800 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "data/db" }, systemLog: { destination: "file", path: "data/log/20180206.log" } }
+2018-02-06T00:51:34.758+0800 I STORAGE  [initandlisten] exception in initAndListen: 98 Unable to lock file: /home/rover/Workspace/cherry-girl/cherry-server/data/db/mongod.lock Resource temporarily unavailable. Is a mongod instance already running?, terminating
+2018-02-06T00:51:34.758+0800 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2018-02-06T00:51:34.758+0800 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2018-02-06T00:51:34.758+0800 I CONTROL  [initandlisten] now exiting
+2018-02-06T00:51:34.758+0800 I CONTROL  [initandlisten] shutting down with code:100
